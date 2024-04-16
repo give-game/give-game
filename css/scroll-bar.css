@@ -1,0 +1,51 @@
+/* 
+---------------------------------------------
+Scroll Bar Custom
+--------------------------------------------- 
+*/
+
+:root {
+    --blue: #3164F4;
+    --violet: #a700e9;
+    --violet-clair: #b700ff;
+    --violet-3: #c739ff;
+    --gris: #111111;
+    --gris-fonce: #202020;
+    --black: #000;
+    --white: #fff;
+  }
+
+  .trigger-btn {
+    background: var(--black);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.scrollbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 0;
+    opacity: 0;
+    background: linear-gradient(to top, var(--violet-clair), var(--violet));
+}
+.clickScrollbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 100%;
+    background: rgba(10,10,10,0.5);
+}

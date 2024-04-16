@@ -1,0 +1,29 @@
+{
+    "dependencies": {
+        "mongodb": "^6.3.0"
+    },
+    "name": "data.json",
+    "version": "1.0.0",
+    "description": "data",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "LeChatLyon",
+    "license": "ISC",
+    "json-comments": {
+        "tips": "Veuillez installer le plugin JsonComments pour activer la fonctionnalité de commentaires pour les fichiers JSON, voir : https://github.com/zhangfisher/json_comments_extension",
+        "data.json": {
+            "[62].Title": "<Schema>",
+            "[39].Title": "<Start  I - P>",
+            "[38].Title": "<End A - H>",
+            "[0].Title": "<Start A - H>",
+            "[58].Title": "<End I - P",
+            "[59].Title": "<Start Q - Z>"
+        },
+        "game.json": {
+            "[43].Title": "Jeu I - Pc"
+        }
+    }
+}
